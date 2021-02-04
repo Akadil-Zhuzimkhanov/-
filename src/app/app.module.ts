@@ -1,3 +1,6 @@
+import { ResultsComponent } from './results/results.component';
+import { AddRecordComponent } from './add-record/addRecord.component';
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,7 +9,9 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddRecordComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
